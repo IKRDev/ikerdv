@@ -1,9 +1,9 @@
+import {getData} from 'https://ikrdev.github.io/ikerdv/scripts/funcs';
+
 let webdata;
 
-fetch("config.json")
-    .then((response) => response.json())
-    .then((data) => webdata = data);
+webdata = getData()
 
 function travelhome() {
-    window.location.href = 'https://ikrdev.github.io/IkerDV/'
+    window.location.href = 'https://ikrdev.github.io/ikerdv/'
 }
