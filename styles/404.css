@@ -30,13 +30,18 @@
     text-decoration: none;
     color: white;
     }
+    
     button {
-        transition-duration: 0.2s;
+        transition-duration: 0.4s;
         background-color: #5b6e74;
-        color:darkgray;
+        color:white;
+        border-radius: 10%;
+        opacity: 0%;
     }
 
     button:hover {
         background-color: #424d50;
-        color:white;
+        color:whitesmoke;
+        border-radius: 50%;
+        opacity: 20%;
     }
