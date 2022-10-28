@@ -1,58 +1,28 @@
-.brLarge {
-    display: block;
-    margin: 100px;
-  }
-
-  h1 {
-    text-align: center;
-    text-decoration: none;
-    font-family: Noto Sans;
-    color: white;
-  }
-
-  hr {
-    background-color: grey;
-    color: grey;
-    /*text-decoration-color: grey;
-     */
-  }
-  body {
-    background-color: #272e30;
-    font-family: Noto Sans;
-    text-align: center;
-  }
-  div {
-    border: 2px solid white;
-    display: inline-block;
-    padding: 10px;
-  }
-  a {
-    color: white;
-    font-family: Noto Sans;
-    text-decoration: none;
-  }
-  button {
-    background-color: #4c8baf;
-    border: none;
-    border-radius: 10px;
-    color: white;
-    display: inline-block;
-    font-size: 16px;
-    opacity: 1;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    transition-duration: 0.4s;
-  }
-  button:hover {
-    background-color: #2b6057;
-    border: none;
-    border-radius: 50px;
-    color: white;
-    display: inline-block;
-    font-size: 16px;
-    opacity: 1;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-  }  
+<html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto Sans"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <h1>
+      <u>My Stuff</u>
+    </h1>
+    <br />
+    <hr color="grey" />
+    <br class="brLarge" />
+    <div class="pageCont">
+      <a href="sandboxelsmods.html"
+        >Sandboxels Mods</a
+      >
+    </div>
+    <div class="pageCont">
+      <a
+        href="turbowarpprojects.html"
+        >Turbowarp Projects</a
+      >
+    </div>
+  </body>
+</html>
