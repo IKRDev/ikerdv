@@ -1,9 +1,9 @@
 * {
-    padding: 0px;
-    margin: auto;
-    text-align: center;
-    font-family: Noto Sans;
-    color: white;
+  padding: 0px;
+  margin: auto;
+  text-align: center;
+  font-family: Noto Sans;
+  color: white;
 }
 
 /*
@@ -14,29 +14,29 @@ u {
 */
 
 .brLarge {
-    display: block;
-    margin: 100px 10;
+  display: block;
+  margin: 100px 10;
 }
 
 body {
-    background-color:#232323;
+  background-color: #232323;
 }
 
 div {
-    display: inline-block;
-    padding: 10px;
-    border: 2px none white;
-    background-color: #333333;
+  display: inline-block;
+  padding: 10px;
+  border: 2px none white;
+  background-color: #333333;
 }
 
 p {
-  color:#f7eee9;
+  color: #f7eee9;
   border: 1px solid #848484;
 }
 
 button {
   color: #f7eee9;
-  background-image:linear-gradient(#fc8530, #fc6129);
+  background-image: linear-gradient(#fc8530, #fc6129);
   transition-duration: 0.5s;
   font-weight: bold;
   border: 1px solid #5a4231;
@@ -44,6 +44,6 @@ button {
 
 button:hover {
   color: #f7eee9;
-  background-image:linear-gradient(#e5772a, #e55726);
+  background-image: linear-gradient(#e5772a, #e55726);
   transition-duration: 0.5s
 }
