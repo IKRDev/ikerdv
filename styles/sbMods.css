@@ -36,14 +36,13 @@ p {
 
 button {
   color: #f7eee9;
-  background-image: linear-gradient(#fc8530, #fc6129);
-  transition-duration: 0.5s;
+  background-image: linear-gradient(#505a62, #222931);
+  transition-duration: 1s;
   font-weight: bold;
-  border: 1px solid #5a4231;
+  border: none;
 }
 
 button:hover {
   color: #f7eee9;
-  background-image: linear-gradient(#e5772a, #e55726);
-  transition-duration: 0.5s
+  background-image: linear-gradient(#393e4b, #1e1d25);
 }
