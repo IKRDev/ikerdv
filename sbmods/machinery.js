@@ -24,7 +24,7 @@ elements.mixer = {
   //behavior:behaviors.SOLID,
   category:"machines",
   state:"solid",
-  temp:0,
+  temp:1,
   tick: function(pixel) {
     fill(pixel.x - Math.floor(pixel.temp / 2), pixel.y + Math.floor(pixel.temp / 2), pixel.x + Math.floor(pixel.temp / 2), pixel.y - Math.floor(pixel.temp / 2), "mix")
   }
