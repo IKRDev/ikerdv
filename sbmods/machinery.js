@@ -10,7 +10,7 @@ function fill(fx, fy, tx, ty, elm) {
         if(x < 164) {
           if(y > 1) {
             if(y < 75) {
-              createPixel(elm, x, y)
+              currentPixels.push(new Pixel(x, y, element));
             }
           }
         }
