@@ -8,8 +8,8 @@ elements.wp = {
     category: "energy",
     state: "gas",
     density: 1000,
-    excludeRandom: true,
-    hidden: true,
+    //excludeRandom: true,
+    //hidden: true,
 }
 
 elements.boiling_water = {
