@@ -6,7 +6,7 @@ function rand(min, max) {
 	return Math.random() * (max - min) + min;
 }
 
-function doWater() {
+function doWater(pixel) {
   if (pixel.start === pixelTicks) {
 				return;
 			}
@@ -91,16 +91,16 @@ elements.boiling_oil = {
   reactions: {"dirt": { "elem1":null, "elem2":"mud" },
                 "sand": { "elem1":null, "elem2":"wet_sand" },
               "dry_ice": {"elem1":null, "elem2":"explosion"},},
-	tick: function(pixel) {
-		if (rand(0, 100) >= 50) {
+  tick: function(pixel) {
+  	if (rand(0, 100) >= 50) {
 			//pop
 			place("oil", pixel.x + rand(-1, 2), pixel.y + rand(-1, 2));
 			place("erase", pixel.x, pixel.y);
 		}
-    else {
-      doWater();
-    }
-	}
+    		else {
+      			doWater(pixel);
+    		}
+		}
 }
 
 elements.water.stateHigh = "boiling_water";
