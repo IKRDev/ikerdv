@@ -31,3 +31,4 @@ elements.boiling_water = {
 };
 
 elements.water.stateHigh = "boiling_water";
+elements.dry_ice.behavior = behaviors.POWDER;
