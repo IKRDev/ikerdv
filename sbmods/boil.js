@@ -10,10 +10,10 @@ elements.wp = {
     density: 1000,
     //excludeRandom: true,
     //hidden: true,
-}
+};
 
 elements.boiling_water = {
-    color = elements.water.color,
+    color: elements.water.color,
     behavior: [
         "CR:wp|CR:wp|CR:wp",
         "M2|XX|M2",
@@ -28,6 +28,6 @@ elements.boiling_water = {
     density: 997,
     conduct: 0.02,
     stain: -0.5,
-}
+};
 
-elements.water.stateHigh = "boiling_water"
+elements.water.stateHigh = "boiling_water";
