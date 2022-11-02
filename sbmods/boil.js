@@ -15,8 +15,8 @@ elements.wp = {
 elements.boiling_water = {
     color: elements.water.color,
     behavior: [
-        "CR:wp|CR:wp|CR:wp",
-        "M2|XX|M2",
+        "CR:bubble%15|CR:steam|CR:bubble%15",
+        "CR:bubble%15|DL|CR:bubble%15",
         "M1|M1|M1",
     ],
     tempLow: 90,
