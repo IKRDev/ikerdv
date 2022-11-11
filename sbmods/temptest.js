@@ -7,6 +7,12 @@ let teVs = {
   max: 10000
 }
 
+// https://www.webtips.dev/webtips/javascript/how-to-clamp-numbers-in-javascript
+const clamp = (num, min, max) => Math.min(Math.max(num, min), max);
+
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+const random = (min, max) => Math.random() * (max - min) + min;
+
 function componentToHex(number) {
 	if(isNaN(number)) { number = 0 };
 	number = Math.max(0,Math.min(255,Math.round(number))).toString(16);
@@ -28,12 +34,13 @@ function rgbToHex(r, g, b) {
 
 elements.tmptst = {
     color: "#000000",
-    behavior: behaviors.LIQUID,
-    category: "liquids",
+    behavior: behaviors.SOLID,
+    category: "special",
     viscosity: 100000,
     state: "liquid",
     density: 720,
     tick: function(pixel) {
-        pixel.color = rgbToHex(scale(pixel.temp, teVs.min, teVs.max, 0, 255), 0, 0)
+	col = scale(pixel.temp, teVs.min, teVs.max, 0, 255)
+        pixel.color = rgbToHex(clamp(col, 0, 255), clamp(col, 0, 255), clamp(col + , 0, 255)+random(1,10));
     },
 };
