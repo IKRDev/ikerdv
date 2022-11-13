@@ -1,0 +1,116 @@
+1) Block ID
+2) Block Name
+3) Hunger Points Restored
+4) Saturation
+5) Chance of food poisoning
+6) Item left after consuming
+
+111
+Cake
+12
+2.4
+0
+0
+
+112
+Apple
+4
+2.4
+0
+0
+
+113
+Raw Pork
+3
+1.8
+0
+0
+
+114
+Cooked Pork
+8
+12.8
+0
+0
+
+119
+Rotten Flesh
+4
+0.8
+0.8
+0
+
+162
+Bread
+5
+6
+0
+0
+
+164
+Raw Chicken
+2
+1.2
+0.3
+0
+
+165
+Cooked Chicken
+6
+7.2
+0
+0
+
+168
+Milk
+1
+0
+0
+92
+
+171
+Raw Beef
+3
+1.8
+0
+0
+
+172
+Steak
+8
+12.8
+0
+0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
