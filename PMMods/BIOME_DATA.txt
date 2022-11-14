@@ -1,0 +1,80 @@
+1) Biome ID
+2) Biome Name
+3) Biome Type (G - Grass, D - Desert, T - Taiga, S - Snow, W - Swamp, N - Nether)
+4) Altitude Multiplier
+5) Altitude Offset
+6) Island Multiplier
+7) Tree Type (O - Oak, B - Birch, S - Spruce, J - Jungle, C - Cactas)
+8) Tree Frequency
+
+1
+Normal
+G
+1
+3
+1
+OB
+7
+
+2
+Flat Lands
+G
+0.3
+3
+0.3
+OB
+5
+
+3
+Hills
+G
+2.5
+8
+1
+OB
+5
+
+4
+Desert
+D
+0.3
+4
+0.3
+C
+6
+
+5
+Islands
+G
+1.8
+-4
+2
+OB
+7
+
+6
+Forest
+G
+0.5
+5
+0.3
+OB
+24
+
+7
+Taiga
+T
+0.7
+5
+1
+S
+12
+
+8
+Snow
+S
+1
+3
+1
+S
+7
