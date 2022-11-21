@@ -66,4 +66,8 @@ a {
     color: #f7eee9;
     background-image: linear-gradient(#393e4b, #1e1d25);
   }
+
+  blockquote {
+    display: inline;
+  }
   
